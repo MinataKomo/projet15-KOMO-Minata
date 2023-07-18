@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 /* HEADER */
 
 header{
@@ -94,8 +98,9 @@ header nav a{
 /* section3 */
 .rigth{
     display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .rigth1{
     /* background-color: aqua; */
@@ -237,6 +242,7 @@ header nav a{
 }
 /* footer */
 footer{
+
     height: 200px;
     text-align: center;
     color: white;
@@ -284,8 +290,8 @@ footer{
     }
     .rigth{
         margin: 0%;
-        width:70%;
-        flex-direction: column;
+        width:100%;
+        /* flex-direction: column; */
         /* background-color: aliceblue; */
     }
     .span{
@@ -302,6 +308,7 @@ footer{
         /* background-color: aliceblue; */
         /* width: 100px; */
         flex-direction: column;
+        margin: 0%;
     }
     .content1{
         width: 100%;
@@ -326,7 +333,7 @@ footer{
 }
 @media screen and (max-width: 700px){
     header{
-        width: 93%;
+        width: 100%;
     }
     .span{
         /* background-color: a; */
@@ -341,6 +348,7 @@ footer{
         /* width: 100%; */
         /* margin-right: 0%; */
         margin-left: 0%;
+        text-align: center;
     }
     .section7{
         margin: 0;
@@ -355,11 +363,12 @@ footer{
     }
     .p1{
         /* background-color: aquamarine; */
-        text-align: left;
+        text-align: center;
         width: 80%;
     }
     .im{
         flex-direction: column;
+        text-align: center;
         width: 100%;
         margin: 0%;
     }
@@ -376,7 +385,8 @@ footer{
     }
     .rigth{
         flex-direction: column;
-        margin: 0%;
+        /* margin-left: 10%; */
+        text-align: center;
         width: 100%;
         
     }
@@ -389,7 +399,7 @@ footer{
         font-size: 80px;
     }
     .p{
-        font-size: 20px;
+        font-size: 40px;
         margin-right: 0%;
     }
     .car{
@@ -408,11 +418,11 @@ footer{
 }
 @media screen and (max-width: 300px){
     header{
-        width: 200%;
+        width: 160%;
     }
     .left1{
         /* background-color: aliceblue; */
-        width: 200%;
+        width: 160%;
         /* font-size: ; */
         flex-direction: column;
     }
@@ -422,6 +432,12 @@ footer{
     .p{
         margin-right: 0%;
         font-size: 20px;
+    }
+    .p1{
+        /* color: antiquewhite; */
+        /* text-align: center;
+         */
+         /* justify-items: center; */
     }
     .pp{
         font-size: 20px;
@@ -433,36 +449,80 @@ footer{
         /* background-color: aqua; */
         /* width: 100%; */
         flex-direction: column;
+        text-align: center;
         /* text-align: left; */
         margin-left: 0%;
         /* font-size: 0px; */
     }
+    .projet{
+        /* text-align: center; */
+        margin-left: 30%;
+    }
+    .row{
+        /* text-align: center; */
+    }
     .k{
         font-size: 200px;
+        margin: 0;
+    }
+    .orde{
+        /* text-align: center; */
+        /* justify-items: center; */
+        /* margin-left: 40%; */
+        /* background-color: aquamarine; */
+        /* margin-right: 0; */
     }
     .rigth{
         /* width: 180%; */
         /* background-color: aqua; */
         flex-direction: column;
-        width: 200%;
+        width: 160%;
+        margin: 0%;
     }
     .span{
-        width: 200%;
+        width: 160%;
+        margin: 0%;
+    }
+    .text{
+        margin: 0;
+    }
+    .p4{
+        text-align: center;
+        margin-left: 50%;
+    }
+    .im{
+        /* text-align: center; */
     }
     .im img{
-        width: 200%;
+        width: 80%;
+        /* text-align: center; */
+        margin-left: 40%;
     }
     .section7{
         /* background-color: aqua; */
-        width: 200%;
-        margin-left: 0%;
+        width: 160%;
+        margin: 0%;
     }
     .SECTION8{
         /* background-color: aqua; */
-        width: 200%;
+        width: 160%;
+        /* margin-left: 30%; */
     }
-    footer{
-        width: 200%;
+    .A{
+        margin-left: 30%;
+    }
+    .footer{
+        width: 160%;
+        /* padding: 50%; */
+        margin: 0%;
+        /* text-align: start; */
+        /* background-color: aliceblue; */
+    }
+    footer h1{
+        /* flex-wrap: wrap; */
+        font-size: 20px;
+        /* margin: 0%; */
+        /* padding: 40%; */
     }
 }
 /* @media screen and (max-width: 400px){
